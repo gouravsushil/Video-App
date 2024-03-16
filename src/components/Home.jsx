@@ -67,12 +67,12 @@ const Home = () => {
 
 const MyCarousel = () => (
     <Carousel
-      autoPlay
-      infiniteLoop
-      interval={1000}
+      // autoPlay
+      // infiniteLoop
+      // interval={1000}
       showStatus={false}
       showThumbs={false}
-      showArrows={false}
+      // showArrows={false}
     >
       <Box w="full" h={'100vh'}>
         <Image src={img1} h="full" w={'full'} objectFit={'cover'} />
